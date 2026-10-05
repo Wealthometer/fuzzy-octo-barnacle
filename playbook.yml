@@ -1,0 +1,6 @@
+- name: Greet Wealth
+  hosts: localhost
+  tasks:
+    - name: Say hello
+      ansible.builtin.debug:
+        msg: "Hello, Wealth!"
